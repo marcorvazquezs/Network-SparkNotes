@@ -99,7 +99,7 @@
 
 
 ## Questions 
-1. Which network topology provides users with the greatest amount of fault tolerance? 
+1. Which network topology provides users with the greatest amount of fault tolerance?    
     A. Star/hub-and-spoke  
     B. Ring  
     C. Mesh  
