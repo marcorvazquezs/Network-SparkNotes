@@ -109,6 +109,7 @@
     D. Bus  
 
 2. Which of these topologies allow for network expansion with the least risk of disruption?
+    
     A. Bus
     B. Ring
     C. LAN  
