@@ -102,14 +102,14 @@
 ## Questions
 
 1. Which network topology provides users with the greatest amount of fault tolerance?
-    
+
     A. Star/hub-and-spoke  
     B. Ring  
     C. Mesh  
     D. Bus  
 
 2. Which of these topologies allow for network expansion with the least risk of disruption?
-    
+
     A. Bus
     B. Ring
     C. LAN  
@@ -123,7 +123,7 @@
     D. Bus network  
 
 4. Which of these are true when it comes to a bus LAN network?  
-    
+
     A. A single cable failing can cause the entire network to come down  
     B. All devices connect to a central device  
     C. It uses a single backbone to connect all network devices  
