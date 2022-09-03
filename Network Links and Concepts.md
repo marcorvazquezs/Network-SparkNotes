@@ -40,4 +40,71 @@
 ### Leased Lines
 - High speed digital lines that can be leased from telephone companies
 - Give you an always-open, always available connection between you and who you choose to connect to
-- 
+- Support both voice and data transmissions
+- An expensive WAN option
+- Called E-carriers in Europe and J-carriers in Japan
+
+| Name | Transmission Speed |
+|------|--------------------|
+|T1    |1.544 Mbps          |
+|T1C   |3.152 Mbps          |
+|T2    |6.312 Mbps          |
+|T3    |44.726 Mbps         |
+|T4    |274.176 Mbps        |
+
+### Metro-Optical
+- Also known as MONs
+- Optical networks that can cover several hundred kilometers and server metropolitan areas
+
+## Termination Points
+- **Demarc**
+  - The connection point between the ISP and the customer network
+  - Marks the boundary of what we are responsible for versus what the ISP is responsible for
+  - The *smart jack* or *network interface device (NID)* is the hardware used at the demarcation point and performs the following functions:
+    - Loopback feature (same as Ethernet loopback)
+    - Signal amplification
+    - Surge protection
+    - Remote alarms
+
+- **CSUs/DSUs**
+  - Acts as a translator between the LAN and the WAN
+  - Think of this as a digital modem that changes the signal from one digital format to another
+
+
+## Questions
+
+1) Which technology needs dial-up access?
+
+    A. Fiber
+    B. ISDN
+    C. Packet Switching
+    D. DMVPN
+
+2) Which is an advantage of ISDN over a POTS network?
+   
+    A. ISDN is more reliable
+    B. ISDN is cheaper
+    C. ISDN is faster
+    D. ISDN uses fixed length packets
+
+3) What is the name of the gap between sending or requesting information and the time it takes to get a response?
+
+    A. Echo
+    B. Attenuation
+    C. Bandwidth
+    D. Latency
+
+4) What is the usual speed of dial-up services?
+
+    A. 1 Gbps
+    B. 256 Kbps
+    C. 144 Kbps
+    D. 56 Kbps
+
+5) Which is the device that acts a translator between the LAN and the WAN data format?
+
+    A. SIP Trunk
+    B. PRI
+    C. MPLS
+    D. CSU/DSU
+
