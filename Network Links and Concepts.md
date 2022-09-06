@@ -81,7 +81,7 @@
     D. DMVPN
 
 2) Which is an advantage of ISDN over a POTS network?
-   
+
     A. ISDN is more reliable
     B. ISDN is cheaper
     C. ISDN is faster
@@ -107,4 +107,3 @@
     B. PRI
     C. MPLS
     D. CSU/DSU
-
