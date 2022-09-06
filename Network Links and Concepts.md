@@ -103,7 +103,7 @@
 
 5) Which is the device that acts a translator between the LAN and the WAN data format?
 
-    A. SIP Trunk
-    B. PRI
-    C. MPLS
-    D. CSU/DSU
+    A. SIP Trunk  
+    B. PRI  
+    C. MPLS  
+    D. CSU/DSU  
