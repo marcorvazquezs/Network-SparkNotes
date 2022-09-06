@@ -70,28 +70,28 @@
 
 1. A WAN configured to cover a city
 
-    A. LAN
-    B. MAN
-    C. VAN
-    D. VPN
+    A. LAN  
+    B. MAN  
+    C. VAN  
+    D. VPN  
 
 2. Which is a computer network that links building and is made up of multiple LANs?
 
-    A. SAN
-    B. PAN
-    C. DAN
-    D. CAN
+    A. SAN  
+    B. PAN  
+    C. DAN  
+    D. CAN  
 
 3. Which gives us a flexible and secure data communications that sometimes replaces an Ethernet LAN?
 
-    A. PHLAN
-    B. MAN
-    C. WLAN
-    D. CRAN
+    A. PHLAN  
+    B. MAN  
+    C. WLAN  
+    D. CRAN  
 
 4. Which technology uses short path labels instead of using long network addresses to direct data from one to another?
 
-    A. MPLS
-    B. Metropolitan Ethernet
-    C. DMVPN
-    D. PPP
+    A. MPLS  
+    B. Metropolitan Ethernet  
+    C. DMVPN  
+    D. PPP  
