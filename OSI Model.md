@@ -123,3 +123,51 @@
   - HTTPS
   - IMAP
   - POP3
+
+#### Mapping Devices to the OSI Model
+| Device | OSI Layer |
+|--------|-----------|
+|Hub     | Physical Layer (Layer 1)|
+|Wireless Bridge | Data Link (Layer 2)|
+|Switch | Data Link (Layer 2) or Network (Layer 3)|
+|Router | Network (Layer 3) |
+|NIC    | Data Link (Layer 2) |
+|Access Point (AP) | Data Link (Layer 2) |
+
+
+## Questions
+
+1) At which OSI layer does an AP operate? 
+
+    A. Network  
+    B. Physical  
+    C. Data Link  
+    D. Session  
+
+2) What are the sub-layers of the data link layer? 
+
+    A. MAC  
+    B. LCL  
+    C. Session  
+    D. LLC  
+
+3) At which layers does a switch operate in? 
+
+    A. Layer 1  
+    B. Layer 2  
+    C. Layer 3  
+    D. Layer 4  
+
+4) Which OSI layer is responsible for building connections between devices? 
+
+    A. Network  
+    B. Transport  
+    C. Session  
+    D. Data Link  
+
+5) What happens when data moves from upper layers to lower layers of the OSI model on a system? 
+
+    A. The header and trailer are stripped off (decapsulation)  
+    B. Data is sent in groups of segments that need two acknowledgments  
+    C. Data moves from the physical layer to application layer  
+    D. Data is encapsulated with a header at the beginning and a trailer at the end
