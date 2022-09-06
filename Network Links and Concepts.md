@@ -75,31 +75,31 @@
 
 1) Which technology needs dial-up access?
 
-    A. Fiber
-    B. ISDN
-    C. Packet Switching
-    D. DMVPN
+    A. Fiber  
+    B. ISDN  
+    C. Packet Switching  
+    D. DMVPN  
 
 2) Which is an advantage of ISDN over a POTS network?
 
-    A. ISDN is more reliable
-    B. ISDN is cheaper
-    C. ISDN is faster
-    D. ISDN uses fixed length packets
+    A. ISDN is more reliable  
+    B. ISDN is cheaper  
+    C. ISDN is faster  
+    D. ISDN uses fixed length packets  
 
 3) What is the name of the gap between sending or requesting information and the time it takes to get a response?
 
-    A. Echo
-    B. Attenuation
-    C. Bandwidth
-    D. Latency
+    A. Echo  
+    B. Attenuation  
+    C. Bandwidth  
+    D. Latency  
 
 4) What is the usual speed of dial-up services?
 
-    A. 1 Gbps
-    B. 256 Kbps
-    C. 144 Kbps
-    D. 56 Kbps
+    A. 1 Gbps  
+    B. 256 Kbps  
+    C. 144 Kbps  
+    D. 56 Kbps  
 
 5) Which is the device that acts a translator between the LAN and the WAN data format?
 
