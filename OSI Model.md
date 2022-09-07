@@ -167,7 +167,7 @@
 
 5) What happens when data moves from upper layers to lower layers of the OSI model on a system? 
 
-    A. The header and trailer are stripped off (decapsulation)  
+    A. The header and trailer are stripped off (de-encapsulation)  
     B. Data is sent in groups of segments that need two acknowledgments  
     C. Data moves from the physical layer to application layer  
     D. Data is encapsulated with a header at the beginning and a trailer at the end
