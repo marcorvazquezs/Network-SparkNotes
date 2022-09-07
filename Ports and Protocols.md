@@ -15,7 +15,12 @@
   - Popular for things like streaming audio and video, because a few dropped packets is not a big deal
 
 ### Protocols
-- **Internet Protocol**
+- [Internet Protocol](#IP)
+- [File Transfer Protocol](#FTP)
+
+
+
+- [**Internet Protocol**](#IP)
   - Used to carry data from one node on the network to another
   - IP is connectionless
   - It is often combined with TCP (TCP/IP) to ensure transmission
@@ -62,5 +67,12 @@
   - Cisco-created tunneling protocol
   - Used to wrap data and securely send it across VPNs and Point-to-Point links
 
-- **File Transfer Protocol (FTP)**
+- [**File Transfer Protocol (FTP)**](#FTP)
+  - Let's us upload and download files from a remote host that is running FTP software
+  - Let's us also vide the contents of folders on an FTP server and do things like rename and delete files and directories
+  - Has weak security mechanisms to authenticate users (There is an option for anonymous logons)
+  - SFTP/SSH should be used instead of FTP
+  - Uses ports 20 and 21
+
+- **Secure Shell**
   - 
