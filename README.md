@@ -14,3 +14,5 @@
   - [Secure Shell](Ports%20and%20Protocols.md#SSH)
   - [Secure File Transfer Protocol](Ports%20and%20Protocols.md#SFTP)
   - [Telnet](Ports%20and%20Protocols.md#Telnet)
+  - [Simple Mail Transfer Protocol](Ports%20and%20Protocols.md#SMTP)
+  - [Domain Name System](Ports%20and%20Protocols.md#DNS)

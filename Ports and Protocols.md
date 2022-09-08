@@ -86,4 +86,18 @@
   - Uses port 22 for secure file transfers
 
 - [**Telnet**](#Telnet)
-  - 
+  - A virtual terminal protocol
+  - Enables sessions to be opened on a remote host, and then commands can be execute on the remote host
+  - Operates on port 23
+  - NOT SECURE
+
+- [**Simple Mail Transfer Protocol**](#SMTP)
+  - Protocol that handles how mail messages are sent between hosts
+  - Relies on TCP connections to guarantee error free delivery
+  - Default port used by SMTP is 25
+  - Can be used to both send and receive mail
+
+- [**Domain Name System**](#DNS)
+  - Resolves host names to IP addresses
+  - Operates on port 53 by default
+
