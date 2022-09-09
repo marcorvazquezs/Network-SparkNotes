@@ -16,3 +16,10 @@
   - [Telnet](Ports%20and%20Protocols.md#Telnet)
   - [Simple Mail Transfer Protocol](Ports%20and%20Protocols.md#SMTP)
   - [Domain Name System](Ports%20and%20Protocols.md#DNS)
+  - [Dynamic Host Configuration Protocol](Ports%20and%20Protocols.md#DHCP)
+  - [Trivial File Transfer Protocol](Ports%20and%20Protocols.md#TFTP)
+  - [Hypertext Transfer Protocol](Ports%20and%20Protocols.md#HTTP)
+  - [Network Time Protocol](Ports%20and%20Protocols.md#NTP)
+  - [POP3 and IMAP4](Ports%20and%20Protocols.md#POP3)
+  - [Simple Network Management Protocol](Ports%20and%20Protocols.md#SNMP)
+  - 

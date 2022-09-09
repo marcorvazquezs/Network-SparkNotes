@@ -101,3 +101,43 @@
   - Resolves host names to IP addresses
   - Operates on port 53 by default
 
+- [**Dynamic Host Configuration Protocol (DHCP)**](#DHCP)
+  - Enables ranges of IP addresses (predefined groups of addresses) defined on a system running a DHCP server application
+  - Clients asks the server for an address and they are leased one
+  - Runs on ports 67 and 68 by default
+
+- [**Trivial File Transfer Protocol**](#TFTP)
+  - Variation of FTP that does not have any security capabilities
+  - Used for simple downloads, things like transferring firmware to a device like a router and booting diskless workstations
+  - Does not offer directory navigation
+  - Used UDP instead of TCP
+  - Operates on port 69 by default
+
+- [**Hypertext Transfer Protocol**](#HTTP)
+  - Protocol that enables text, graphics, multimedia and other material to be downloaded from an HTTP server
+  - Defines what actions can be requested by clients and how servers should answer those requests
+  - HTTP runs over port 80 (considered insecure)
+  - HTTPS runs over port 443 (has replaced HTTP)
+  - Use uniform resource locator (URL) to decide what page should be downloaded from the remote server
+
+- [**Network Time Protocol**](#NTP)
+  -  Part of the TCP/IP protocol suite that communicates time between systems. 
+  -  Think of this as the time keeper of the network, makes sure all devices have their clocks set to the same time
+  -  Runs over UDP port 123
+
+- [**Post Office Protocol Version 3 (POP3) / Internet Message Access Protocol Version 4 (IMAP4)**](#POP3)
+  - Mechanisms for downloading, or pulling, email from a server
+  - Needed because email must be stored in a central location and then downloaded from here
+  - POP3 default port is 110 
+  - IMAP4 default port is 143
+
+- [**Simple Network Management Protocol (SNMP)**](#SNMP)
+  - Uses port 161 to send data and port 162 to receive it
+  - Enables network devices to communicate information about their state to a central system
+  - The central system is also able to pass configuration parameters to the devices
+  - **Components**
+    - Central system (knows as a manager) acts as the central communication point for all the SNMP-enabled devices on the network 
+    - On the managed devices, software called an SNMP agent is setup and configured with the manager's IP address 
+    - The agent can communicate when certain events to the SNMP manager as they happen, these are called trap messages
+
+  ![SNMP Components](screenshots/2022-09-09-15-10-12.png)
