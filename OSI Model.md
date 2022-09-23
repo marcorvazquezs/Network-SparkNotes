@@ -3,6 +3,7 @@
 - Each layer of the OSI model has a specific function
 
 ### Physical Layer (Layer 1)
+
 - Think physical characteristics
 - Defines things like voltage, frequency, speed and bandwidth
   - **Hardware**
@@ -26,6 +27,7 @@
   - SONET
 
 ### Data Link Layer (Layer 2)
+
 - Responsible for getting data to the physical layer
 - Other responsibilities
   - Error detection
@@ -48,6 +50,7 @@
   - virtual LANs (VLANs)
 
 ### Network Layer (Layer 3)
+
 - Main responsibility of this layer is *routing* - passing data from one network to another
 - *Routing Protocols* live in this layer
   - software component that do *route selection*, think picking the best path for the data to get from one network to another
@@ -69,6 +72,7 @@
   - Multiprotocol Label Switching (MPLS)
 
 ### Transport Layer (Layer 4)
+
 - Main function is to transport data between network devices
 - Functions:
   - Error checking: checks data is correctly send or received
@@ -85,6 +89,7 @@
     - Windowing: Data is sent in groups of segments that only need one acknowledgment. The "size of the window" is defined when the session between two devices is established.
 
 ### Session Layer (Layer 5)
+
 - Handles the managing and controlling of the synchronization of data between applications on two devices
 - Establishes, maintains and breaks sessions
 - Handles encryption - scrambling of data
@@ -96,6 +101,7 @@
   - Transport Layer Security (TLS)
 
 ### Presentation Layer (Layer 6)
+
 - Main function is to convert data received from the application layer into another format
 - **Common Data Formats**
   - **Graphics files**
@@ -111,6 +117,7 @@
     - MIDI
 
 ### Application Layer (Layer 7)
+
 - Takes requests and data from users and pass them to the lower layers of the OSI model
 - Defines processes that let applications use network services.
 - **Protocols**
@@ -125,6 +132,7 @@
   - POP3
 
 #### Mapping Devices to the OSI Model
+
 | Device | OSI Layer |
 |--------|-----------|
 |Hub     | Physical Layer (Layer 1)|
@@ -134,38 +142,37 @@
 |NIC    | Data Link (Layer 2) |
 |Access Point (AP) | Data Link (Layer 2) |
 
-
 ## Questions
 
-1) At which OSI layer does an AP operate? 
+1) At which OSI layer does an AP operate?
 
     A. Network  
     B. Physical  
     C. Data Link  
     D. Session  
 
-2) What are the sub-layers of the data link layer? 
+2) What are the sub-layers of the data link layer?
 
     A. MAC  
     B. LCL  
     C. Session  
     D. LLC  
 
-3) At which layers does a switch operate in? 
+3) At which layers does a switch operate in?
 
     A. Layer 1  
     B. Layer 2  
     C. Layer 3  
     D. Layer 4  
 
-4) Which OSI layer is responsible for building connections between devices? 
+4) Which OSI layer is responsible for building connections between devices?
 
     A. Network  
     B. Transport  
     C. Session  
     D. Data Link  
 
-5) What happens when data moves from upper layers to lower layers of the OSI model on a system? 
+5) What happens when data moves from upper layers to lower layers of the OSI model on a system?
 
     A. The header and trailer are stripped off (de-encapsulation)  
     B. Data is sent in groups of segments that need two acknowledgments  

@@ -35,9 +35,9 @@
       4. Once the session is done, a similar process is used to close the session
 
 - [**User Datagram Protocol**](#UDP)
-    - A transport protocol but it does not guarantee delivery
-    - UDP does not establish any kind of connection
-    - Much lower overhead than TCP (TCP header has 14 fields vs UDP header has only 4)
+  - A transport protocol but it does not guarantee delivery
+  - UDP does not establish any kind of connection
+  - Much lower overhead than TCP (TCP header has 14 fields vs UDP header has only 4)
 
 - [**Internet Control Message Protocol**](#ICMP)
   - Works with the IP layer to provide things like error checking and reporting
@@ -75,7 +75,7 @@
   - Provides security because it encrypts data as it travels between systems
   - Has more robust authentication systems than Telnet
   - Two versions (these are incompatible)
-    - SSH1 
+    - SSH1
     - SSH2 (more secure)
   - Runs on port 22 by default
 
@@ -121,14 +121,14 @@
   - Use uniform resource locator (URL) to decide what page should be downloaded from the remote server
 
 - [**Network Time Protocol**](#NTP)
-  -  Part of the TCP/IP protocol suite that communicates time between systems. 
-  -  Think of this as the time keeper of the network, makes sure all devices have their clocks set to the same time
-  -  Runs over UDP port 123
+  - Part of the TCP/IP protocol suite that communicates time between systems.
+  - Think of this as the time keeper of the network, makes sure all devices have their clocks set to the same time
+  - Runs over UDP port 123
 
 - [**Post Office Protocol Version 3 (POP3) / Internet Message Access Protocol Version 4 (IMAP4)**](#POP3)
   - Mechanisms for downloading, or pulling, email from a server
   - Needed because email must be stored in a central location and then downloaded from here
-  - POP3 default port is 110 
+  - POP3 default port is 110
   - IMAP4 default port is 143
 
 - [**Simple Network Management Protocol (SNMP)**](#SNMP)
@@ -136,8 +136,68 @@
   - Enables network devices to communicate information about their state to a central system
   - The central system is also able to pass configuration parameters to the devices
   - **Components**
-    - Central system (knows as a manager) acts as the central communication point for all the SNMP-enabled devices on the network 
-    - On the managed devices, software called an SNMP agent is setup and configured with the manager's IP address 
+    - Central system (knows as a manager) acts as the central communication point for all the SNMP-enabled devices on the network
+    - On the managed devices, software called an SNMP agent is setup and configured with the manager's IP address
     - The agent can communicate when certain events to the SNMP manager as they happen, these are called trap messages
 
   ![SNMP Components](screenshots/2022-09-09-15-10-12.png)
+
+  - **SNMPv3**
+    - Runs on port 161 by default
+    - Supports Authentication and Encryption
+
+- [**Lightweight Directory Access Protocol**](#LDAP)
+  - Protocol that provides a mechanism to access and make queries to directory services systems.
+  - Uses port 389
+  - Most LDAP interactions happen through things like an authentication program
+
+- [**Hypertext Transfer Protocol Secure**](#HTTPS)
+  - Encrypts web traffic between the client and host
+  - Encryption uses TLS
+  - Runs on port 443 by default
+
+- [**Server Message Block**](#SMB)
+  - Used to provide access to resources (files, printers, ports, etc.) that run on Windows.
+  - Runs by default on port 445
+
+- [**Syslog**](#Syslog)
+  - Used to write log files to a central location
+  - Default port is 514
+
+## Questions
+
+1) TCP is an example of what kind of transport protocol?
+
+    A. Connection Oriented
+    B. Connection reliant
+    C. Connection dependent
+    D. Connectionless
+
+2) Which of these are considered transport protocols?
+
+    A. TCP
+    B. IP
+    C. UDP
+    D. THC
+
+3) What is the function of NTP?
+
+    A. Provides a mechanism for the sharing of authentication information.
+    B. Used to access shared folders on a Linux system
+    C. Used to communicate utilization information to a central manager.
+    D. Used to communicate time synchronization information between systems.
+
+4) Which of these protocols offer guaranteed delivery?
+
+    A. FTP
+    B. POP
+    C. IP
+    D. TCP
+
+5) Which protocol uses port 68?
+
+    A. DHCP
+    B. DNS
+    C. SMB
+    D. SMTP
+

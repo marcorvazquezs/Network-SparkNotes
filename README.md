@@ -1,4 +1,7 @@
-# Table of Contents 
+# Table of Contents
+
+## Network Fundamentals
+
 - [Network Topologies](Network%20Topologies.md)
 - [Network Types](Network%20Types.md)
 - [Network Links and Concepts](Network%20Links%20and%20Concepts.md)
@@ -22,4 +25,11 @@
   - [Network Time Protocol](Ports%20and%20Protocols.md#NTP)
   - [POP3 and IMAP4](Ports%20and%20Protocols.md#POP3)
   - [Simple Network Management Protocol](Ports%20and%20Protocols.md#SNMP)
-  - 
+  - [Lightweight Directory Access Protocol](Ports%20and%20Protocols.md#LDAP)
+  - [Hypertext Transfer Protocol Secure](Ports%20and%20Protocols.md#HTTPS)
+  - [Server Message Block](Ports%20and%20Protocols.md#SMB)
+  - [Syslog](Ports%20and%20Protocols.md#Syslog)\
+
+## Network Services
+
+- [DNS]
